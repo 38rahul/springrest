@@ -1,0 +1,45 @@
+
+
+Rest Template::
+--> it is used to consume Restful web services.
+Rest template is a class and this class is used to create the Application that consume rest full web services.
+To communnicate between 1 microservuces to another microservices.
+
+Question: What do you mean by consume ?
+--> Assume that we have certain Api or rest full web services running somewhere in a server and inside your Application you want to consume that API 
+	response or you want to use that Api response then for that we have to use a rest templat class.
+	
+ 
+	So, Rest template is a class and it is used to create a Application which consumes or uses the response from the other Restful web services.
+	
+	1: 50
+	
+	Question: How can we use this ??
+	---------------------------------
+	For that we have certain methods by which we can use this rest template to consume the rest full web services 
+	
+	------------------------------
+	Before Moving to the methods I would like to show you constructors for creating the object of a rest template
+	
+	-------------------------------
+	Basically there are 3 ways to create the instance of the Rest Template
+	
+	1: RestTemplate()
+			-> we don't pass any arg. inside constructor. Used to create instance of the RestTemplate using default Settings
+			
+	
+	2: RestTemplate(ClientHttpRequestFactory requestFactory)
+			-> create a new instance of the RestTemplate based on the given ClientHttpRequestFactory
+	
+	3: RestTemplate(<>)
+	
+	
+	-----------------------------------
+	
+	I will create 1 controller inside the controller package
+	And I will create 1 Service class inside the service package
+	and then inside my new  controller i will use the rest Template and then I will show you How we can consume all these
+	rest full web services end point over Different Controller.
+
+	
+	
